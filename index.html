@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<title>Explorador de Universidades</title>
+<link rel="stylesheet" href="css/estilos.css">
+<link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+
+<header>
+<h1>Explorador de Universidades en Línea</h1>
+<p>Consulta programas, requisitos y ubicación</p>
+</header>
+
+<div id="reloj"></div>
+
+<main>
+
+<section class="contenedor">
+
+<!-- UNAM -->
+<article class="tarjeta">
+<h2>UNAM</h2>
+<img src="Imagenes/unam.jpg">
+<p>Pública</p>
+<iframe src="https://maps.google.com/maps?q=UNAM&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+</article>
+
+<!-- IPN -->
+<article class="tarjeta">
+<h2>IPN</h2>
+<img src="Imagenes/ipn.jpg">
+<p>Pública</p>
+<iframe src="https://maps.google.com/maps?q=IPN&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+</article>
+
+<!-- UADY -->
+<article class="tarjeta">
+<h2>UADY</h2>
+<img src="Imagenes/uady.jpg">
+<p>Pública</p>
+<iframe src="https://maps.google.com/maps?q=UADY&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+</article>
+
+<!-- UANL -->
+<article class="tarjeta">
+<h2>UANL</h2>
+<img src="Imagenes/uanl.jpg">
+<p>Pública</p>
+<iframe src="https://maps.google.com/maps?q=UANL&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+</article>
+
+<!-- BUAP -->
+<article class="tarjeta">
+<h2>BUAP</h2>
+<img src="Imagenes/buap.jpg">
+<p>Pública</p>
+<iframe src="https://maps.google.com/maps?q=BUAP&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+</article>
+
+<!-- UAM -->
+<article class="tarjeta">
+<h2>UAM</h2>
+<img src="Imagenes/uam.jpg">
+<p>Pública</p>
+<iframe src="https://maps.google.com/maps?q=UAM&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+</article>
+
+<!-- UDG -->
+<article class="tarjeta">
+<h2>UDG</h2>
+<img src="Imagenes/udg.jpg">
+<p>Pública</p>
+<iframe src="https://maps.google.com/maps?q=Universidad%20de%20Guadalajara&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+</article>
+
+<!-- TEC -->
+<article class="tarjeta">
+<h2>Tec de Monterrey</h2>
+<img src="Imagenes/tec.jpg">
+<p>Privada</p>
+<iframe src="https://maps.google.com/maps?q=Tecnologico%20de%20Monterrey&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+</article>
+
+<!-- ANAHUAC -->
+<article class="tarjeta">
+<h2>Anáhuac</h2>
+<img src="Imagenes/anahuac.jpg">
+<p>Privada</p>
+<iframe src="https://maps.google.com/maps?q=Universidad%20Anahuac&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+</article>
+
+<!-- LASALLE -->
+<article class="tarjeta">
+<h2>La Salle</h2>
+<img src="Imagenes/lasalle.jpg">
+<p>Privada</p>
+<iframe src="https://maps.google.com/maps?q=Universidad%20La%20Salle&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+</article>
+
+<!-- IBERO -->
+<article class="tarjeta">
+<h2>Iberoamericana</h2>
+<img src="Imagenes/ibero.jpg">
+<p>Privada</p>
+<iframe src="https://maps.google.com/maps?q=Universidad%20Iberoamericana&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+</article>
+
+<!-- UV -->
+<article class="tarjeta">
+<h2>Veracruzana</h2>
+<img src="Imagenes/uv.jpg">
+<p>Pública</p>
+<iframe src="https://maps.google.com/maps?q=Universidad%20Veracruzana&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+</article>
+
+</section>
+
+<!-- FORMULARIOS -->
+<h2>Formulario de Registro</h2>
+<form id="registro">
+<label>Nombre</label>
+<input type="text" name="nombre" required>
+
+<label>Edad</label>
+<input type="number" name="edad" required>
+
+<label>Carrera de interés 1</label>
+<input type="text" required>
+
+<label>Carrera de interés 2</label>
+<input type="text">
+
+<label>Carrera de interés 3</label>
+<input type="text">
+
+<button type="submit">Enviar</button>
+</form>
+
+<h2>Consulta de Universidades</h2>
+<form>
+<label>Programa académico</label>
+<input type="text">
+
+<label>Costos</label>
+<input type="text">
+
+<label>Requisitos</label>
+<input type="text">
+
+<button type="submit">Buscar</button>
+</form>
+
+<!-- GALERÍA -->
+<section class="galeria">
+<h2>📸 Galería de Universidades</h2>
+<div class="grid-galeria">
+<a href="Imagenes/unam.jpg" target="_blank"><img src="Imagenes/unam.jpg"></a>
+<a href="Imagenes/ipn.jpg" target="_blank"><img src="Imagenes/ipn.jpg"></a>
+<a href="Imagenes/udg.jpg" target="_blank"><img src="Imagenes/udg.jpg"></a>
+<a href="Imagenes/uady.jpg" target="_blank"><img src="Imagenes/uady.jpg"></a>
+<a href="Imagenes/tec.jpg" target="_blank"><img src="Imagenes/tec.jpg"></a>
+<a href="Imagenes/anahuac.jpg" target="_blank"><img src="Imagenes/anahuac.jpg"></a>
+<a href="Imagenes/uanl.jpg" target="_blank"><img src="Imagenes/uanl.jpg"></a>
+<a href="Imagenes/buap.jpg" target="_blank"><img src="Imagenes/buap.jpg"></a>
+<a href="Imagenes/lasalle.jpg" target="_blank"><img src="Imagenes/lasalle.jpg"></a>
+<a href="Imagenes/uam.jpg" target="_blank"><img src="Imagenes/uam.jpg"></a>
+<a href="Imagenes/uv.jpg" target="_blank"><img src="Imagenes/uv.jpg"></a>
+<a href="Imagenes/ibero.jpg" target="_blank"><img src="Imagenes/ibero.jpg"></a>
+</div>
+</section>
+
+</main>
+
+<script src="app.js"></script>
+
+</body>
+</html>
